@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.dependency 'CryptoSwift', '~> 1.0.0'
   s.dependency 'ReachabilitySwift', '~> 4.3.0'
   s.dependency 'TaskQueue', '~> 1.1.1'
-  s.dependency 'Starscream', '~> 3.1.0'
+  s.dependency 'Starscream', '~> 3'
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
