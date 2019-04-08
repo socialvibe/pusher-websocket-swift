@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "Hamilton Chapman" => "hamchapman@gmail.com" }
   s.source           = { git: "https://github.com/pusher/pusher-websocket-swift.git", tag: s.version.to_s }
   s.social_media_url = 'https://twitter.com/pusher'
+  s.swift_version    = '4.2'
 
   s.requires_arc = true
   s.source_files = 'Sources/*.swift'
